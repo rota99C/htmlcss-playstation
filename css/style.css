@@ -19,17 +19,13 @@
     margin-right: 1rem ;
 }
 
-#slideshow_img {
-   /* background-image: url(../img/jumbo-bg.png);
-    background-size: contain;
-    height: 700px;*/
-}
-
-#slideshow_img > img {
-    padding: 0 !important;
+.card-img {
+    border-radius: 0 !important;
 }
 
 .purchase-now-btn {
     background-color: #CD3D0F !important;
-    width: auto;
 }
+ #slideshow img {
+     border-radius: 15px;
+ }
