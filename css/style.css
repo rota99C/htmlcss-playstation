@@ -19,8 +19,9 @@
     margin-right: 1rem ;
 }
 
-.card-img {
+.card-img, .card {
     border-radius: 0 !important;
+    border: none;
 }
 
 .purchase-now-btn {
@@ -29,3 +30,21 @@
  #slideshow img {
      border-radius: 15px;
  }
+
+ #banner p:first-of-type {
+     font-size: small;
+     margin-bottom: 0;
+     color: #187FD2;
+ }
+
+ #banner p:last-of-type, #component-big p {
+     color: #888888;
+ }
+
+
+ .card-body{
+     padding-right: 0;
+     padding-left: 0;
+
+ }
+ 
