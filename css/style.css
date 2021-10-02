@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    margin-right: 0 !important;
+}
+
+
+#header-1 {
+    background-color: black;
+}
+
+
+#header-2 {
+    background-color: blue;
+}
+
+.nav-link {
+    color: black !important;
+    margin-right: 1rem ;
+}
+
+#slideshow_img {
+   /* background-image: url(../img/jumbo-bg.png);
+    background-size: contain;
+    height: 700px;*/
+}
+
+#slideshow_img > img {
+    padding: 0 !important;
+}
+
+.purchase-now-btn {
+    background-color: #CD3D0F !important;
+    width: auto;
+}
