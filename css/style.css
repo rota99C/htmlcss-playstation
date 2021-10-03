@@ -75,3 +75,15 @@
  #nuove-uscite .card-img-top {
     border-radius: 15px;
  }
+
+ #playstation-plus {
+     background-color: #BEBCBB;
+ }
+
+ #playstation-plus button {
+     background-color: #D9DADC;
+ }
+
+ #playstation-now {
+     background-color: #161C3B;
+ }
