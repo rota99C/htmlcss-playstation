@@ -19,10 +19,12 @@
     margin-right: 1rem ;
 }
 
-.card-img, .card {
-    border-radius: 0 !important;
-    border: none;
-}
+#jumbo {
+    height: 650px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    border-radius: 0;
+ }
 
 .purchase-now-btn {
     background-color: #CD3D0F !important;
@@ -41,13 +43,34 @@
      color: #888888;
  }
 
+#jumbo .card, #components .card, 
+#jumbo-it-takes-two .card,
+#components .card-img {
+    border-radius: 0 !important;
+    border: none;
+}
 
- .card-body{
+ #components .card-body{
      padding-right: 0;
      padding-left: 0;
-
  }
  
-.card-img-top:not(.card-img-top-1){
+#components .card-img-top:not(.card-img-top-1){
      opacity: 55%;
+ }
+
+ #jumbo-it-takes-two {
+     height: 650px;
+     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+     background-position: center;
+     border-radius: 0;
+ }
+
+ #nuove-uscite .card {
+     background-color: #212529;
+     border: none;
+ }
+
+ #nuove-uscite .card-img-top {
+    border-radius: 15px;
  }
