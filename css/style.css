@@ -39,13 +39,14 @@
      color: #187FD2;
  }
 
- #banner p:last-of-type, #component-big p {
+ #banner p:last-of-type, #component-big p, #banner-play4 p {
      color: #888888;
  }
 
 #jumbo .card, #components .card, 
 #jumbo-it-takes-two .card,
-#components .card-img {
+#components .card-img,
+#accessories .card {
     border-radius: 0 !important;
     border: none;
 }
