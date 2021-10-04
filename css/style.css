@@ -87,3 +87,28 @@
  #playstation-now {
      background-color: #161C3B;
  }
+
+ footer {
+     background-color: #00439C;
+ }
+
+footer ul li {
+    list-style-type: none;
+    padding-bottom: 7px;
+}
+
+footer li a  {
+    text-decoration: none;
+}
+
+footer ul li a:visited, footer a:visited  {
+    color: white;
+}
+
+.globe {
+    height: 24px;
+}
+
+.w-20 {
+    width: 20%;
+}
