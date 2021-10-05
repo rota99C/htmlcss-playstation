@@ -15,7 +15,6 @@
 }
 
 .nav-link {
-    color: black !important;
     margin-right: 1rem ;
 }
 
@@ -116,17 +115,94 @@ footer ul li a:visited, footer a:visited  {
 
 
 /* animazione  */
-#slideshow img:hover{
+#slideshow img:hover, #sconti img:hover {
+    transition: 0.3s;
     margin-top: -8px;
+    box-shadow: 0px 5px 30px gray;
 }
 
 #components .card-img-top:not(.card-img-top-1):hover{
     opacity: 100%;
 }
 
-
-
 .btn:hover{
-    border: 2px solid white;
-    margin-inline: -2px;
+    transition: 0.2s;
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.btn-dark:hover, .btn-primary:hover {
+    transition: 0.2s;
+    outline: 2px solid black;
+    outline-offset: 2px;
+}
+
+
+#nuove-uscite img:hover {
+    transition: 0.3s;
+    margin-top: -8px;
+    box-shadow: 0px 5px 30px white;
+}
+
+#social-logo img:hover {
+    border: solid 3px black;
+}
+
+/* animazione navbar */
+
+#navbar-tendina {
+    z-index: 0;
+    position: absolute;
+    left: 12px;
+    display: none;
+}
+
+#navbar-tendina ul {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    padding-left: 0;
+}
+
+#navbar-tendina ul li {
+    display: inline-block;
+}
+
+#navbar-tendina ul li::before{
+    content: "\2022";
+    color: #0d6efd;
+    display: inline-block;
+    width: 0.5em;
+}
+
+#navbar-tendina ul li:not(:first-of-type)::before {
+    margin-left: 1em;
+}
+
+#navbar-tendina hr {
+    margin: 0.5em;
+}
+
+#navbar-tendina .card-body {
+    padding: 0;
+}
+
+#navbar-tendina .card {
+    border: none;
+}
+
+.nav-link:hover .navbar-tendina {
+    z-index: 1;
+    display: block;
+}
+
+.fa-chevron-down {
+    font-size: 12px;
+}
+
+.nav-link:hover .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+#header-2 .nav-link:hover {
+    color: #0d6efd;
 }
