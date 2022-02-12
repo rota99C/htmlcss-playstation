@@ -6,3 +6,8 @@ Tecnologie utilizzate:
 - HTML5
 - CSS3
 - Bootstrap 5 
+
+### Anteprima
+![screenshot playstation-3](https://user-images.githubusercontent.com/89580212/153708989-201f4d0a-2302-4f92-8de8-394db6cedb01.jpg)
+
+Esplora la repository per vedere il lavoro completo!
